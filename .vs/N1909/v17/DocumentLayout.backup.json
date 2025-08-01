@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Apps\\UnityProject\\N1909\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|d:\\apps\\unityproject\\n1909\\assets\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\objectpooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\objectpooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|D:\\Apps\\UnityProject\\N1909\\assets\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75627502-BC75-6A68-30C5-C47568ABDA52}|Assembly-CSharp.csproj|solutionrelative:assets\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObstacleSpawner.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\ObstacleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\ObstacleSpawner.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\ObstacleSpawner.cs",
+              "RelativeToolTip": "Assets\\ObstacleSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T09:28:09.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Obstacle.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T09:26:45.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Bullet.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Bullet.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:57:46.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:57:17.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemySpawner.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:56:45.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ObjectPooler.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\ObjectPooler.cs",
+              "RelativeDocumentMoniker": "Assets\\ObjectPooler.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\ObjectPooler.cs",
+              "RelativeToolTip": "Assets\\ObjectPooler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:56:19.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\PlayerController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:55:41.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UIManager.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\UIManager.cs",
+              "RelativeToolTip": "Assets\\UIManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:54:49.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\GameManager.cs",
+              "RelativeToolTip": "Assets\\GameManager.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:22:25.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartButton.cs",
+              "DocumentMoniker": "D:\\Apps\\UnityProject\\N1909\\Assets\\StartButton.cs",
+              "RelativeDocumentMoniker": "Assets\\StartButton.cs",
+              "ToolTip": "D:\\Apps\\UnityProject\\N1909\\Assets\\StartButton.cs",
+              "RelativeToolTip": "Assets\\StartButton.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:18:46.456Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
