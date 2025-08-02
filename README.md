@@ -15,7 +15,7 @@ N1909 là một game bắn súng theo chiều dọc 2D được phát triển b�
 
 <div align="center">
   <img src="ImagesREADME/menu.png" alt="Main Menu" width="400"/>
-  <img src="ImagesREADME/game_ui.png" alt="Game UI" width="400"/>
+  <!-- <img src="ImagesREADME/game_ui.png" alt="Game UI" width="400"/> -->
 </div>
 
 ## 🎮 Gameplay
@@ -123,8 +123,10 @@ Assets/
 
 ## �️ Công nghệ sử dụng
 
-![Unity Logo](ImagesREADME/unity_logo.png)
-![C# Logo](ImagesREADME/csharp_logo.png)
+<p align="center">
+   <img src="ImagesREADME/unity_logo.png" alt="Unity Logo" width="80"/>
+   <img src="ImagesREADME/csharp_logo.png" alt="C# Logo" width="80"/>
+</p>
 
 - **Game Engine**: Unity 2022.3 LTS
 - **Programming Language**: C#
