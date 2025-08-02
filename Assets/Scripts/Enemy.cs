@@ -41,4 +41,10 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    // Thêm vào Enemy.cs
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
 }

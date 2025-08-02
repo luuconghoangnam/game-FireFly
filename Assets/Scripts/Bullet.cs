@@ -3,6 +3,7 @@
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private float speed = 10f;
+    private int damageMultiplier = 1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,5 +45,15 @@ public class Bullet : MonoBehaviour
             explosion.transform.position = transform.position;
             explosion.SetActive(true);
         }
+    }
+
+    public void SetDamageMultiplier(int multiplier)
+    {
+        damageMultiplier = multiplier;
+    }
+
+    public int GetDamage()
+    {
+        return damageMultiplier;
     }
 }

@@ -48,6 +48,12 @@ public class GameManager : MonoBehaviour
         
         // Start spawning obstacles
         ObstacleSpawner.Instance.StartSpawning();
+        
+        // Start spawning power-ups
+        PowerUpSpawner.Instance.StartSpawning();
+        
+        // Reset difficulty
+        DifficultyManager.Instance.ResetDifficulty();
     }
     
     public void AddScore(int points)
@@ -61,6 +67,9 @@ public class GameManager : MonoBehaviour
         isGameActive = false;
         EnemySpawner.Instance.StopSpawning();
         ObstacleSpawner.Instance.StopSpawning();
+        
+        // Stop spawning power-ups
+        PowerUpSpawner.Instance.StopSpawning();
         
         // Update high score if needed
         if (currentScore > highScore)

@@ -1,0 +1,59 @@
+# Unity files that should maintain LF endings
+*.cs text eol=lf
+*.js text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+
+# Unity asset files - treat as binary
+*.unity binary
+*.prefab binary
+*.asset binary
+*.meta binary
+*.controller binary
+*.anim binary
+*.playable binary
+*.mask binary
+*.mat binary
+*.physicMaterial binary
+*.physicsMaterial2D binary
+*.renderTexture binary
+*.cubemap binary
+*.flare binary
+
+# Image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tga binary
+*.tiff binary
+*.psd binary
+
+# Audio files
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.aiff binary
+
+# 3D model files
+*.fbx binary
+*.dae binary
+*.3ds binary
+*.dxf binary
+*.obj binary
+
+# Font files
+*.ttf binary
+*.otf binary
+
+# Archive files
+*.zip binary
+*.rar binary
+*.7z binary
+
+# Video files
+*.mp4 binary
+*.mov binary
+*.avi binary

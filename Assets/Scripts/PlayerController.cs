@@ -5,12 +5,20 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firePoint;
-    [SerializeField] private float fireRate = 0.5f;
+    [SerializeField] private float fireRate = 0.5f; // Tăng giá trị này để bắn chậm hơn
     
     [Header("Animation")]
     [SerializeField] private Animator animator;
     [SerializeField] private string turnLeftParam = "TurnLeft";
     [SerializeField] private string turnRightParam = "TurnRight";
+
+    [Header("Power-ups")]
+    [SerializeField] private float normalFireRate = 0.5f;
+    [SerializeField] private float rapidFireRate = 0.15f;
+    [SerializeField] private GameObject shieldObject;
+
+    private bool hasDoubleDamage = false;
+    private bool hasShield = false;
     
     private float nextFireTime = 0f;
     private Rigidbody2D rb;
@@ -36,11 +44,12 @@ public class PlayerController : MonoBehaviour
         // Cập nhật animation dựa trên hướng di chuyển
         UpdateAnimation(horizontalInput);
             
-        // Handle shooting input
+        // Sử dụng GetKeyDown thay vì GetKey để chỉ bắn một lần khi nhấn
+        // hoặc nếu bạn muốn bắn liên tục khi giữ, giữ GetKey nhưng tăng fireRate
         if (Input.GetKey(KeyCode.Space) && Time.time > nextFireTime)
         {
             Shoot();
-            nextFireTime = Time.time + fireRate;
+            nextFireTime = Time.time + fireRate; // fireRate = 0.5f nghĩa là 2 viên/giây
         }
     }
     
@@ -93,16 +102,71 @@ public class PlayerController : MonoBehaviour
         {
             bullet.transform.position = firePoint.position;
             bullet.transform.rotation = firePoint.rotation;
+            
+            // Sử dụng hasDoubleDamage
+            if (hasDoubleDamage)
+            {
+                // Tăng sát thương của đạn
+                Bullet bulletScript = bullet.GetComponent<Bullet>();
+                if (bulletScript != null)
+                    bulletScript.SetDamageMultiplier(2);
+            }
+            
             bullet.SetActive(true);
+            AudioManager.Instance.PlayShootSound();
         }
     }
     
+    public void ActivatePowerUp(PowerUpType type, float duration)
+    {
+        switch(type)
+        {
+            case PowerUpType.RapidFire:
+                fireRate = rapidFireRate;
+                Invoke("ResetFireRate", duration);
+                break;
+                
+            case PowerUpType.DoubleDamage:
+                hasDoubleDamage = true;
+                Invoke("ResetDamage", duration);
+                break;
+                
+            case PowerUpType.Shield:
+                hasShield = true;
+                shieldObject.SetActive(true);
+                Invoke("ResetShield", duration);
+                break;
+        }
+    }
+
+    private void ResetFireRate()
+    {
+        fireRate = normalFireRate;
+    }
+
+    private void ResetDamage()
+    {
+        hasDoubleDamage = false;
+    }
+
+    private void ResetShield()
+    {
+        hasShield = false;
+        shieldObject.SetActive(false);
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy") || other.CompareTag("Obstacle"))
+        if ((other.CompareTag("Enemy") || other.CompareTag("Obstacle")) && !hasShield)
         {
             GameManager.Instance.GameOver();
+            AudioManager.Instance.PlayGameOverSound();
             gameObject.SetActive(false);
+        }
+        else if ((other.CompareTag("Enemy") || other.CompareTag("Obstacle")) && hasShield)
+        {
+            // Shield bảo vệ khỏi va chạm đầu tiên
+            ResetShield();
         }
     }
 }

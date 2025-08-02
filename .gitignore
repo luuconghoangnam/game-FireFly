@@ -5,9 +5,12 @@
 [Bb]uild/
 [Bb]uilds/
 Logs/
+UserSettings/
 
-# IDE / OS specific
-.DS_Store
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
 *.csproj
 *.unityproj
 *.sln
@@ -21,4 +24,18 @@ Logs/
 *.mdb
 *.opendb
 *.VC.db
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Unity specific
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
  
