@@ -75,7 +75,7 @@ Assets/
 2. **Mở trong Unity**:
    - Mở Unity Hub
    - Chọn "Open" và navigate đến thư mục dự án
-   - Chọn thư mục `N1909`
+   - Chọn thư mục chứa game
 
 3. **Chạy game**:
    - Mở scene `MainMenu` trong thư mục `Assets/Scenes/`
