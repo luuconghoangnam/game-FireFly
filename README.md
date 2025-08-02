@@ -1,4 +1,4 @@
-# N1909 - 2D Vertical Shooting Game
+# FireFly - 2D Vertical Shooting Game
 
 ![Game Logo](ImagesREADME/logo.png)
 
@@ -137,7 +137,7 @@ Assets/
 
 ## 📊 Tiến độ phát triển
 
-![Development Progress](ImagesREADME/progress_chart.png)
+![Development Progress]
 
 | Feature | Status | Progress |
 |---------|--------|----------|
